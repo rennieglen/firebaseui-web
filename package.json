@@ -2,6 +2,10 @@
   "name": "firebaseui",
   "version": "6.1.0",
   "description": "Javascript library for customizable UI on top of Firebase SDK",
+  "scripts": {
+    "gulp": "gulp",
+    "build": "gulp build-npm build-esm build-esm-en build-esm-ar build-esm-es-419 build-esm-fr build-esm-id build-esm-ja build-esm-pt-BR build-esm-zh-CN build-css build-css-rtl build-js-en build-js"
+  },
   "files": [
     "dist/firebaseui.js",
     "dist/firebaseui.css",
